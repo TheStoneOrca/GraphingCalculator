@@ -4,9 +4,9 @@ import InputandPlot from "./__components/InputandPlot";
 
 export default function GraphingPage() {
   return (
-    <div className="flex">
+    <div className="flex h-full w-full" id="graphpage">
       <InputandPlot />
-      <div id="graph" className="h-16 w-16"></div>
+      <div id="graph" className="h-full w-16"></div>
     </div>
   );
 }
